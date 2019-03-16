@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* ClearFix */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table; 
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+
+header{
+    width: 100%;
+	height: 50px;
+	background: #F0F8FF;
+	position: fixed;
+	z-index: 2;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+}
+
+.small {
+  height: 50px;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+header li{
+    float:left;
+}
+
+header li a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    width: 80%;
+	margin: 0 auto;
+}
+
+.section {
+	max-width: 100%; 
+	height: 42em;
+	padding: 10px;
+}
+
+.section h2 {
+	color: #fff;
+	font-size: 6em;
+	font-weight: 200;
+	text-align: center;
+	padding: 2.5em 0;
+}
+
+.home{
+	background: #6bb6ff;
+}
+
+.education{
+	background: #1E90FF;
+}
+
+.skills{
+	background: #8B4789;
+}
+
+.projects{
+	background: #872657;
+}
+
+.interests{
+	background: #6bb6ff;
+}
+
+.certificates{
+	background: #1E90FF;
+}
