@@ -108,7 +108,7 @@ body main #left-side .hexagon-container .hexagon.hexagon-image {
   transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-4px, 4px);
 }
 body main #left-side .hexagon-container .hexagon.hexagon-image .inner {
-  background: url(/images/varun.png);
+  background: url(https://pilakavil.github.io/images/varun.png);
   background-size: 120%;
   background-position: top left;
   background-repeat: no-repeat;
