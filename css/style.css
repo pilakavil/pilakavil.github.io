@@ -447,12 +447,4 @@ body main #right-side .hexagon-icon-fill-small .fa {
     color: #2d3e50;
   }
 }
-/*iPad*/
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  body main .info-content {
-    padding: 0 8px;
-  }
-  body main > section {
-    padding: 52px 18px;
-  }
-}
+
