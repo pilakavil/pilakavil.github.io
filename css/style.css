@@ -4,7 +4,7 @@ html
 {
     height: 100%;
     width: 100%;
-    background: url(https://pilakavil.github.io/images/background.jpg);
+    background: url("https://pilakavil.github.io/images/background.jpg");
     
 }
 body
